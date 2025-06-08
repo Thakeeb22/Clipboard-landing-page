@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas:
+    "header header header header"
+    "keep-track-sec keep-track-sec keep-track-sec keep-track-sec"
+    "access-clip-sec access-clip-sec access-clip-sec access-clip-sec"
+    "supercharge-sec supercharge-sec supercharge-sec supercharge-sec"
+    "logos-sec logos-sec logos-sec logos-sec"
+    "cta-sec cta-sec cta-sec cta-sec"
+    "footer footer footer footer";
+  text-align: center;
+  background-color: #fff;
+}
+/* Header Section */
+header {
+  grid-area: header;
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+.bg-image {
+  background: url("/images/bg-header-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+.bg-image > .logo {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.hero {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+.ios {
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px hsl(171, 66%, 44%);
+}
+.ios:hover {
+  background-color: hsl(170, 37%, 62%);
+}
+.mac {
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px hsl(233, 100%, 69%);
+}
+.mac:hover {
+  background-color: hsl(233, 100%, 78%);
+}
+.hero > p {
+  width: 84%;
+  color: hsl(201, 11%, 66%);
+}
+/* Keep Track Section */
+.keep-track-sec {
+  grid-area: keep-track-sec;
+  margin-top: 70px;
+}
+.keep-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.keep-track > p {
+  width: 50%;
+}
+.details-keep {
+  margin-top: 30px;
+  display: flex;
+  flex: 1 1 0;
+  text-align: left;
+  gap: 10rem;
+}
+.details-keep > img {
+  width: 40%;
+}
+.qic {
+  width: 20%;
+}
+/* Access Clibboard Section */
+.access-clip-sec {
+  grid-area: access-clip-sec;
+  margin-top: 70px;
+}
+.access-clip {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+.access-clip > img {
+  width: 50%;
+  margin-top: 50px;
+}
+.details-clip {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+.details-clip > p {
+  width: 80%;
+}
+/* Supercharge Section */
+.supercharge-sec {
+  grid-area: supercharge-sec;
+}
+.supercharge {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+.supercharge-icons {
+  margin-top: 50px;
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.supercharge-icons > div {
+  width: 20%;
+}
+/* Logos section */
+.logos-sec {
+  grid-area: logos-sec;
+  margin-top: 70px;
+}
+.logo-sec {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* Call to action section */
+.cta-sec {
+  grid-area: cta-sec;
+  margin-top: 70px;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+}
+.cta > p {
+  width: 50%;
+  margin-bottom: 40px;
+}
+.cta-ios {
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px hsl(171, 66%, 44%);
+}
+.cta-ios:hover {
+  background-color: hsl(170, 37%, 62%);
+}
+.cta-mac {
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px hsl(233, 100%, 69%);
+}
+.cta-mac:hover {
+  background-color: hsl(233, 100%, 78%);
+}
+/* Footer Section */
+footer {
+  padding: 20px;
+  grid-area: footer;
+  background-color: hsl(0, 0%, 89%);
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1 1 0;
+}
+.footer-logo {
+  width: 90px;
+}
+.enquiry {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 5rem;
+  margin-right: 20px;
+}
+.socials > a {
+  margin: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    font-size: 16px;
+  }
+  .bg-image {
+    background: url("/images/bg-header-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .ios {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  .mac {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  .details-keep{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+  .keep-track > p{
+    width: 80%;
+  }
+  .details-keep > img{
+    width: 80%;
+  }
+  .qic{
+    width: 60%;
+  }
+  .access-clip > img {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .supercharge-icons{
+    flex-direction: column;
+  }
+  .supercharge-icons > div{
+    width: 60%;
+  }
+  .logo-sec{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .cta-btns{
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .cta-ios {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  .cta-mac {
+    width: 100%;
+    padding: 20px 40px;
+  }
+  .cta > p{
+    width: 80%;
+  }
+  footer{
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .enquiry{
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1em;
+  }
+}
