@@ -15,7 +15,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-f-88wFOHBp)
+- Live Site URL: [Add live site URL here](https://thakeeb22.github.io/Clipboard-landing-page/)
 
 ## My process
 
@@ -67,7 +66,7 @@ I wish to continue exploring the 2 powerful tools for web layout and later try b
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://www.your-site.com)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/Clipboard-landing-page/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
 - Twitter - [@MuhammadThakeeb](https://x.com/MuhammadThakeeb?s=09)
 
