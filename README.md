@@ -66,7 +66,7 @@ I wish to continue exploring the 2 powerful tools for web layout and later try b
 
 ## Author
 
-- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/Clipboard-landing-page/)
+- Website - [Muhammad Thakeeb Muhammad](https://thakeeb22.github.io/mt-tech-designs/)
 - Frontend Mentor - [@Thakeeb22](https://www.frontendmentor.io/profile/Thakeeb22)
 - Twitter - [@MuhammadThakeeb](https://x.com/MuhammadThakeeb?s=09)
 
